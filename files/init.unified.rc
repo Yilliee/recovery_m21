@@ -1,0 +1,9 @@
+service unified-script /system/bin/unified-script.sh
+  user root
+  group root
+  disabled
+  oneshot
+  seclabel u:r:recovery:s0
+
+on boot
+  start unified-script

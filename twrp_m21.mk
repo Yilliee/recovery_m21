@@ -1,3 +1,8 @@
+# Unified script
+PRODUCT_PACKAGES += \
+        unified-script.sh \
+	init.unified.rc
+
 # Inherit from common tree
 $(call inherit-product, device/samsung/universal9611-common/common.mk)
 
