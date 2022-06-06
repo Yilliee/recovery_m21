@@ -1,4 +1,4 @@
-## TWRP device tree for the Samsung Galaxy A51 4G (SM-A515F).
+## TWRP device tree for the Samsung Galaxy M21 (2020 + 2021) and M21s (F41).
 
 ## How-to compile it:
 
@@ -6,5 +6,5 @@ To build:
 
 ```sh
 . build/envsetup.sh
-lunch twrp_a51-eng
+lunch twrp_m21-eng
 mka recoveryimage```
